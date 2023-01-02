@@ -1,12 +1,26 @@
 @use "sass:color";
 
+$font-family: "Sintony", sans-serif;
+$font-family-font-awsome: "Font Awesome 5 Free", sans-serif;
+$font-family-portada: "Rubik Moonrocks", cursive;
+$font-family-titulos: "Metal Mania", cursive;
+$font-family-parrafos: "Nanum Pen Script", cursive;
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$text-portada: #4612d3;
+$text-slogan: #85f36a;
+$text-evento: #fdfc47;
+$text-leyenda: color.scale($text-slogan, $lightness: 50%);
+$text-portada-subt: color.scale($text-evento, $lightness: 40%);
+$negro-claro: #141414;
+$blanco-fondo: #e9eff1;
+$bg: color.scale($blanco-fondo, $lightness: 70%);
+$color-enmarcar: color.scale($bg, $blackness: 2%);
+$color-border: color.scale($color-enmarcar, $blackness: 5%);
+$fondoContraste: #777;
+$fontContraste: white;
 
-$mqMinWidth: 420px;
+$centrar: auto;

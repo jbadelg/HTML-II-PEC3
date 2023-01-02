@@ -7,6 +7,9 @@
  * Import variables
  */
 
+@tailwind base;
+@tailwind components;
+
 @import "variables";
 
 /**
@@ -26,6 +29,14 @@
  */
 
 @import "layouts/home";
+@import "layouts/articulo";
+@tailwind utilities;
+@layer components {
+  .cardin {
+    // @apply p-4 sm-w-1/2 lg:w-1/3 roundedd-lg shadow-sm hover:shadow-3xlYellow hover:-translate-y-10 transition duration-800 ease-in-out;
+    @apply p-4 shadow-sm hover:shadow-3xlYellow hover:-translate-y-10 transition ease-in-out;
+  }
+}
 
 /**
  * Do NOT include anything else in this file!
